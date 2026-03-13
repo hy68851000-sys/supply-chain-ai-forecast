@@ -1,5 +1,6 @@
 # 供应链需求预测系统
-
+## 🌐 在线体验
+👉 [点击这里直接体验]((https://supply-chain-ai-forecast-7fq7onq5wylezrwjn9cbjp.streamlit.app/))
 基于时间序列分析 + 大语言模型的零售门店销售预测与备货建议系统
 
 ## 项目简介
