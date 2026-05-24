@@ -5,10 +5,11 @@ import numpy as np
 from sklearn.ensemble import GradientBoostingRegressor
 from openai import OpenAI
 
-client = OpenAI(
-    api_key=st.secrets["ZHIPU_API_KEY"],
-    base_url="https://open.bigmodel.cn/api/paas/v4/"
-)
+if st.button("Start Forecast"):
+    client = OpenAI(
+        api_key=st.secrets["ZHIPU_API_KEY"],
+        base_url="https://open.bigmodel.cn/api/paas/v4/"
+    )
 
 st.title("Supply Chain Demand Forecast System")
 st.write("AI-powered sales prediction and restocking recommendations")
