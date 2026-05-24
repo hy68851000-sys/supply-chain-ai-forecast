@@ -6,7 +6,7 @@ from sklearn.ensemble import GradientBoostingRegressor
 from openai import OpenAI
 
 client = OpenAI(
-    api_key=os.environ.get("ZHIPU_API_KEY"),
+    api_key=st.secrets["ZHIPU_API_KEY"],
     base_url="https://open.bigmodel.cn/api/paas/v4/"
 )
 
